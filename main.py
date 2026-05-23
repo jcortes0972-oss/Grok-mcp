@@ -15,7 +15,7 @@ def trigger_external_webhook(action_name: str, secure_payload_text: str) -> str:
     try:
         # We will route this to an open webhook testing service for demonstration
         # You can later replace this with a Zapier, Make, or HomeAssistant webhook URL
-        webhook_url = f"https://webhook.site"
+        webhook_url = f"https://hook.us2.make.com/o9whqmqd84qnbxwey9ohyyh3yoh2gtpv"
         
         payload = {
             "event": action_name,
